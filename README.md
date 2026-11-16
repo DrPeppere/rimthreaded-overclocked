@@ -1,6 +1,6 @@
 # RimThreaded Overclocked - tester build
 
-Private test copy of **RimThreaded Overclocked**, an unofficial continuation of RimThreaded (multithreading for RimWorld), for
+Test copy of **RimThreaded Overclocked**, an unofficial continuation of RimThreaded (multithreading for RimWorld), for
 friends who test it. Thank you for helping. This is its own mod (`drpepper.rimthreaded.overclocked`).
 
 - **Current build: 144** (see [CHANGELOG.md](CHANGELOG.md)). Tested on RimWorld **1.7** (1.7.5005). The 1.6 files are included but were not retested for this build.
@@ -33,4 +33,4 @@ Send the owner: your RimWorld version, your mod list (`Config/ModsConfig.xml`), 
 Launch options such as `-rtmodfixes=off` (turns off the built-in fixes for other mods), `-rtframepacing=off`, `-rtfleckframe=off` switch single features off if one misbehaves; tell the owner which one helped.
 
 ## License
-MIT, see [LICENSE](LICENSE). Not for public re-upload: please do not post this build to the Steam Workshop or elsewhere.
+MIT, see [LICENSE](LICENSE). This is a test build: please link to this repo instead of re-uploading the files to the Steam Workshop or other sites, so everyone gets the latest build.
