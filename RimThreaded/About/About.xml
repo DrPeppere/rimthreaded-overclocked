@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>RimThreaded Overclocked</name>
+	<author>DrPepper; original RimThreaded by Major Hoff</author>
+	<packageId>drpepper.rimthreaded.overclocked</packageId>
+	<supportedVersions>
+		<li>1.6</li>
+		<li>1.7</li>
+	</supportedVersions>
+  <description>
+    RimThreaded Overclocked enables RimWorld to utilize multiple threads and thus greatly increases the speed of the game.
+
+    UNOFFICIAL continuation of RimThreaded for RimWorld 1.6 and 1.7, by DrPepper.
+    This is its own mod (packageId drpepper.rimthreaded.overclocked): do not run it together with the original RimThreaded
+    (majorhoff.rimthreaded). A mod list or save that names the original RimThreaded needs this mod switched on once by hand.
+    Based on RimThreaded by Caleb Seelhoff (Major Hoff), MIT license, and on the 1.6 port by kazenokizu (Nolo).
+    Not made or supported by the original author or by the 1.6 port: please report problems here, not to them.
+    -Based on RimThreaded 2.7.2 (RimWorld 1.4)
+    -1.7 (Waylith engine, .NET 10): built against 1.7.5000 rev1275; tested in unattended in-game runs with ~1,300 popular mods
+    -1.6: built against 1.6.4871 rev590; tested in the same unattended in-game runs
+    -Experimental: back up saves.
+
+    SETTINGS:
+    The number of threads to utilize should be set in the mod settings, according to your specific computer's core count.
+    If you are experiencing "Thread Timeout" errors, try increasing your Thread Abort Timeout threshold.
+
+    TICK PROFILER (this port):
+    Mod settings > RimThreaded Overclocked > Tick profiler > Start measuring (or dev mode > debug actions > RimThreaded).
+    Measures where each tick's time goes: tick steps, worker threads, kinds of thing, game systems, and every mod's patches.
+    Reports are saved in your RimWorld save-data folder under RimThreaded\Profiles.
+
+    LOAD ORDER:
+    Put RimThreaded Overclocked last in load order.
+
+    BUG REPORTS (this port):
+    Mod settings > RimThreaded Overclocked > Report a problem. It builds a short report (PC specs, mod list, errors,
+    your user name removed) that you can check before sending. Send it with the form at
+    https://github.com/DrPeppere/rimthreaded-issues or in the pinned "Bug reports" discussion on the Workshop page.
+
+    CREDITS (original RimThreaded, by Caleb Seelhoff):
+    Special thank you for helping me test Austin (Stanui)!
+    And thank you to others in Rimworld community who have posted their bug findings!
+    Big thanks to JoJo for his continued help bug fixing and adding mod compatibility!
+    Big thanks to Brrainz (Pardeike) for Harmony and all of the coding help!
+    Big thanks to Kiame Vivacity for his help with fixing sound!
+    Thank you bookdude13 for your many bugfixes!
+    Thank you to Ataman for helping me fix the LVM deep storage bug!
+    Thank you Ken for fixing RegionCostCalculator.PathableNeighborIndices!
+    Thank you Raccoononi for the RT 2.0 logo! https://discordhub.com/profile/245738467995156481
+    Thank you ArchieV1 for the RT 1.0 logo! https://github.com/ArchieV1
+    Logo help from: Marnador https://ludeon.com/forums/index.php?action=profile;u=36313 and JKimsey https://pixabay.com/users/jkimsey-253161/
+    Thank you BaRKy for reviewing my mod! I am honored! https://www.youtube.com/watch?v=EWudgTJksMU
+
+    DONATE (to the original author):
+    Some subscribers insisted that I set up a donation page. For those looking, here it is: https://ko-fi.com/rimthreaded
+  </description>
+  <modDependencies>
+    <li>
+        <packageId>brrainz.harmony</packageId>
+        <displayName>Harmony</displayName>
+        <steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+        <downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+    </li>
+  </modDependencies>
+  <incompatibleWith>
+    <li>majorhoff.rimthreaded</li>
+    <li>krkr.rocketman</li>
+    <li>qarsoonmeel.dreamersdream</li>
+    <li>tachyonite.pawnmorpherpublic</li>
+    <li>vexedtrees980.rimuhiversi</li>
+    <li>ryder.turnitonoff</li>
+    <li>dame.timecontrol</li>
+    <li>biomesteam.biomesislands</li>
+    <li>pyrce.terrain.movement.modkit</li>
+    <li>mlie.prisonerarena</li>
+    <li>rwmt.Multiplayer</li>
+    <li>zetrith.prepatcher</li>
+    <li>jecrell.doorsexpanded</li>
+    <li>Owlchemist.Windows</li>
+  </incompatibleWith>
+</ModMetaData>
